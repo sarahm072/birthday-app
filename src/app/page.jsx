@@ -15,8 +15,7 @@ export default function HomePage() {
     <LoaderScreen key="loader" onDone={() => setCurrentScreen(1)} />,
     <IntroScreen key="intro" onNext={() => setCurrentScreen(2)} />,
     <CakeScreen key="cake" onNext={() => setCurrentScreen(3)} />,
-    <PhotosScreen key="photos" onNext={() => setCurrentScreen(4)} />,
-    <MessageScreen key="message" onNext={() => setCurrentScreen(5)} />,
+    <MessageScreen key="message" onNext={() => setCurrentScreen(4)} />,
   ]
 
   return (
